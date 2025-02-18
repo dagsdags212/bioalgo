@@ -1,3 +1,6 @@
+use bioalgo::*;
+
 fn main() {
-    println!("Hello, world!");
+    let result = pattern_count("ACGTACGTACGT", "CG");
+    println!("{result}");
 }
